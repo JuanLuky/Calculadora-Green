@@ -38,7 +38,7 @@ class Calculadora {
           return;
         }
 
-        this.display.value = conta;
+        this.display.value = conta.toFixed(1);
       } catch (e) {
         alert('Conta inválida');
         return;
