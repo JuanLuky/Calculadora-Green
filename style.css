@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d4a33;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: left;
+    box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #006845;
+    color: #F4fefd;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* calculadora */
+
+
+.calculadora {
+    padding: 10px;
+    max-width:  500px;
+    width: 100%;
+}
+.display {
+    width: 100%;
+    border: 2px solid transparent;
+    outline: none;
+    padding: 6px 20px;
+    border-radius:5px;
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 20px;
+    background-color: #F4fefd;
+    color: #1b2223;
+}
+.display:focus {
+    border: 2px solid #29f60e;
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #F4fefd;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.btn:focus {
+    border: 1px solid #464646;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.btn-eq {
+    background-color: #87db26;
+    color: #F4fefd;
+}
